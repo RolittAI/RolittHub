@@ -51,19 +51,27 @@ RolittHub is an open-source AI chatbot project designed for ARM-based hardware p
 ---
 
 ## Supported Hardware
-
-<div align="center">
-
 ### 💻 System Requirements
 
 | Component | Minimum Specification |
 |-----------|---------------------|
-| Processor | ARM-based |
+| Processor | ARM-based (Allwinner, ROCKCHIP) |
 | Memory | 1GB RAM |
 | Connectivity | Wi-Fi/Bluetooth |
 | Audio | I/O Support |
 
-</div>
+### 🛠️ Hardware Optimization
+
+- Display driver optimization
+- Servo motor control optimization
+- Sensor integration (gyroscope, accelerometer, etc.)
+- Microphone array optimization
+- Speaker audio quality optimization
+
+### 🤖 AI Features
+
+- OTA online upgrades
+- AI SAAS service integration
 
 ---
 
@@ -95,11 +103,6 @@ python main.py
 
 ---
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/RolittAI/RolittHub/ci.yml?branch=main)](https://github.com/RolittAI/RolittHub/actions)
-[![GitHub issues](https://img.shields.io/github/issues/RolittAI/RolittHub)](https://github.com/RolittAI/RolittHub/issues)
-[![GitHub stars](https://img.shields.io/github/stars/RolittAI/RolittHub)](https://github.com/RolittAI/RolittHub/stargazers)
-
 ## Usage 📱
 
 1. Power on your device and ensure all connections are proper
@@ -116,7 +119,11 @@ python main.py
 - 💬 [Community Forum](https://community.rolitt.com)
 - 📚 [Documentation](https://docs.rolitt.com)
 
----
+## System Architecture <img src="assets/icons/architecture.svg" width="24" height="24" alt="Architecture Icon" style="vertical-align: middle">
+
+<div align="center">
+  <img src="assets/images/architecture.svg" alt="System Architecture Diagram" width="600">
+</div>
 
 ## License 📄
 
@@ -130,10 +137,4 @@ This project is licensed under the Apache License 2.0.
 
 [Contributing Guidelines](CONTRIBUTING.md) | [Code of Conduct](CODE_OF_CONDUCT.md)
 
-</div>
-
-## System Architecture <img src="assets/icons/architecture.svg" width="24" height="24" alt="Architecture Icon" style="vertical-align: middle">
-
-<div align="center">
-  <img src="assets/images/architecture.svg" alt="System Architecture Diagram" width="600">
 </div>

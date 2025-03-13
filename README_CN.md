@@ -51,17 +51,27 @@ RolittHub是一个基于ARM平台的开源AI聊天机器人项目，主要使用
 ---
 
 ## 支持的硬件
-
-<div align="center">
-
 ### 💻 系统要求
 
 | 组件 | 最低配置 |
 |------|----------|
-| 处理器 | ARM架构 |
+| 处理器 | ARM架构（全志、ROCKCHIP） |
 | 内存 | 1GB RAM |
 | 连接 | Wi-Fi/蓝牙 |
 | 音频 | 输入输出支持 |
+
+### 🛠️ 硬件优化
+
+- 屏幕驱动优化
+- 舵机控制优化
+- 传感器集成（陀螺仪、加速度计等）
+- 麦克风阵列优化
+- 扬声器音质优化
+
+### 🤖 AI功能
+
+- OTA在线升级
+- AI SAAS服务对接
 
 </div>
 
@@ -128,7 +138,7 @@ python main.py
 ## 系统架构 <img src="assets/icons/architecture.svg" width="24" height="24" alt="架构图标" style="vertical-align: middle">
 
 <div align="center">
-  <img src="assets/images/architecture.svg" alt="系统架构图" width="600">
+  <img src="assets/images/architecture_cn.svg" alt="系统架构图" width="600">
 </div>
 
 ## 主要功能 <img src="assets/icons/features.svg" width="24" height="24" alt="功能图标" style="vertical-align: middle">

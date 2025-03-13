@@ -24,21 +24,11 @@ RolittHub는 ARM 플랫폼 기반의 오픈소스 AI 챗봇 프로젝트로, Pyt
 - 노이즈 제거 및 에코 제거 🔇
 - 사용자 정의 웨이크 워드 감지 🗣️
 
----
-
 ### 디스플레이 드라이버 🖥️
 - 다양한 디스플레이 유형 지원 (LCD, OLED 등)
 - 동적 UI 렌더링 🎨
 - 다국어 문자 표시 🌐
 - 사용자 정의 애니메이션 지원 ✨
-
----
-
-## 시스템 아키텍처 <img src="assets/icons/architecture.svg" width="24" height="24" alt="아키텍처 아이콘" style="vertical-align: middle">
-
-<div align="center">
-  <img src="assets/images/architecture.svg" alt="시스템 아키텍처 다이어그램" width="600">
-</div>
 
 ### LED 제어 💡
 - RGB LED 상태 표시
@@ -61,19 +51,27 @@ RolittHub는 ARM 플랫폼 기반의 오픈소스 AI 챗봇 프로젝트로, Pyt
 ---
 
 ## 지원 하드웨어
-
-<div align="center">
-
 ### 💻 시스템 요구사항
 
 | 구성 요소 | 최소 사양 |
 |----------|----------|
-| 프로세서 | ARM 기반 |
+| 프로세서 | ARM 기반 (Allwinner, ROCKCHIP) |
 | 메모리 | 1GB RAM |
 | 연결 | Wi-Fi/블루투스 |
 | 오디오 | 입출력 지원 |
 
-</div>
+### 🛠️ 하드웨어 최적화
+
+- 디스플레이 드라이버 최적화
+- 서보 모터 제어 최적화
+- 센서 통합 (자이로스코프, 가속도계 등)
+- 마이크 어레이 최적화
+- 스피커 음질 최적화
+
+### 🤖 AI 기능
+
+- OTA 온라인 업그레이드
+- AI SAAS 서비스 연동
 
 ---
 
@@ -120,6 +118,12 @@ python main.py
 - 📢 [GitHub Issues](https://github.com/RolittAI/RolittHub/issues)
 - 💬 [커뮤니티 포럼](https://community.rolitt.com)
 - 📚 [문서](https://docs.rolitt.com)
+
+## 시스템 아키텍처 <img src="assets/icons/architecture.svg" width="24" height="24" alt="아키텍처 아이콘" style="vertical-align: middle">
+
+<div align="center">
+  <img src="assets/images/architecture_kr.svg" alt="시스템 아키텍처 다이어그램" width="600">
+</div>
 
 ## 라이선스 📄
 

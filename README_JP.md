@@ -51,19 +51,27 @@ RolittHubは、ARMプラットフォームベースのオープンソースAIチ
 ---
 
 ## 対応ハードウェア
-
-<div align="center">
-
 ### 💻 システム要件
 
 | コンポーネント | 最小仕様 |
 |--------------|----------|
-| プロセッサ | ARM ベース |
+| プロセッサ | ARMベース（Allwinner、ROCKCHIP） |
 | メモリ | 1GB RAM |
 | 接続 | Wi-Fi/Bluetooth |
 | オーディオ | 入出力対応 |
 
-</div>
+### 🛠️ ハードウェア最適化
+
+- ディスプレイドライバの最適化
+- サーボモーター制御の最適化
+- センサー統合（ジャイロスコープ、加速度計など）
+- マイクアレイの最適化
+- スピーカー音質の最適化
+
+### 🤖 AI機能
+
+- OTAオンラインアップグレード
+- AI SAASサービス連携
 
 ---
 
@@ -114,24 +122,8 @@ python main.py
 ## システムアーキテクチャ <img src="assets/icons/architecture.svg" width="24" height="24" alt="アーキテクチャアイコン" style="vertical-align: middle">
 
 <div align="center">
-  <img src="assets/images/architecture.svg" alt="システムアーキテクチャ図" width="600">
+  <img src="assets/images/architecture_jp.svg" alt="システムアーキテクチャ図" width="600">
 </div>
-
-## 主要功能 <img src="assets/icons/features.svg" width="24" height="24" alt="功能图标" style="vertical-align: middle">
-
-### OTAアップデート 🚀
-- 安全な無線ファームウェアアップデート 🔒
-- 自動アップデートチェック ⚡
-- ロールバック保護 🛡️
-- アップデート進捗モニタリング 📈
-
----
-
-## コミュニティとサポート 👥
-
-- 📢 [GitHub Issues](https://github.com/RolittAI/RolittHub/issues)
-- 💬 [コミュニティフォーラム](https://community.rolitt.com)
-- 📚 [ドキュメント](https://docs.rolitt.com)
 
 ## ライセンス 📄
 
