@@ -1,6 +1,20 @@
-# RolittHub - AI 스마트 하드웨어 로봇 <img src="assets/icons/robot.svg" width="32" height="32" alt="로봇 아이콘" style="vertical-align: middle">
+# RolittHub - AI 스마트 하드웨어 로봇 <img src="assets/icons/robot.svg" width="32" height="32" alt="로봇 아이콘" style="vertical-align: middle; animation: float 3s ease-in-out infinite;">
 
-RolittHub는 ARM 플랫폼 기반의 오픈소스 AI 챗봇 프로젝트로, Python을 주요 개발 언어로 사용합니다. 이 프로젝트는 지능형 하드웨어 기능과 AI 챗봇 기능을 결합하여 대화형 다기능 로봇 플랫폼을 구현합니다. 자세한 내용은 당사 웹사이트 [www.rolitt.com](https://www.rolitt.com)을 방문해 주세요! 🌟
+[English](README.md) | [简体中文](README_CN.md) | [日本語](README_JP.md) | [한국어](README_KR.md)
+
+---
+
+<div align="center">
+
+🤖 **지능형 하드웨어와 AI 챗봇의 완벽한 결합** 🤖
+
+RolittHub는 ARM 플랫폼 기반의 오픈소스 AI 챗봇 프로젝트로, Python을 주요 개발 언어로 사용합니다. 이 프로젝트는 지능형 하드웨어 기능과 AI 챗봇 기능을 결합하여 대화형 다기능 로봇 플랫폼을 구현합니다.
+
+[www.rolitt.com](https://www.rolitt.com) 🌟
+
+</div>
+
+---
 
 ## 주요 기능 <img src="assets/icons/features.svg" width="24" height="24" alt="기능 아이콘" style="vertical-align: middle">
 
@@ -10,11 +24,21 @@ RolittHub는 ARM 플랫폼 기반의 오픈소스 AI 챗봇 프로젝트로, Pyt
 - 노이즈 제거 및 에코 제거 🔇
 - 사용자 정의 웨이크 워드 감지 🗣️
 
+---
+
 ### 디스플레이 드라이버 🖥️
 - 다양한 디스플레이 유형 지원 (LCD, OLED 등)
 - 동적 UI 렌더링 🎨
 - 다국어 문자 표시 🌐
 - 사용자 정의 애니메이션 지원 ✨
+
+---
+
+## 시스템 아키텍처 <img src="assets/icons/architecture.svg" width="24" height="24" alt="아키텍처 아이콘" style="vertical-align: middle">
+
+<div align="center">
+  <img src="assets/images/architecture.svg" alt="시스템 아키텍처 다이어그램" width="600">
+</div>
 
 ### LED 제어 💡
 - RGB LED 상태 표시
@@ -34,41 +58,54 @@ RolittHub는 ARM 플랫폼 기반의 오픈소스 AI 챗봇 프로젝트로, Pyt
 - 롤백 보호 🛡️
 - 업데이트 진행 상황 모니터링 📈
 
+---
+
 ## 지원 하드웨어
-- 다양한 ARM 개발 보드
-- Ubuntu 시스템 중심 지원
-- 권장 사양:
-  - ARM 프로세서
-  - 최소 1GB RAM
-  - Wi-Fi/블루투스 기능
-  - 오디오 입출력 지원
 
-## 시스템 요구사항
-- Ubuntu (권장)
-- Python 3.7 이상
-- 필요한 Python 패키지 (requirements.txt 참조)
+<div align="center">
 
-## 설치 방법
+### 💻 시스템 요구사항
 
-1. 저장소 복제:
+| 구성 요소 | 최소 사양 |
+|----------|----------|
+| 프로세서 | ARM 기반 |
+| 메모리 | 1GB RAM |
+| 연결 | Wi-Fi/블루투스 |
+| 오디오 | 입출력 지원 |
+
+</div>
+
+---
+
+## 시작하기 🚀
+
+### 1️⃣ 설치
+
 ```bash
+# 저장소 복제
 git clone https://github.com/RolittAI/RolittHub.git
 cd RolittHub
-```
 
-2. 의존성 설치:
-```bash
+# 의존성 설치
 pip install -r requirements.txt
 ```
 
-3. config.yaml에서 하드웨어 설정 구성
+---
 
-4. 메인 프로그램 실행:
+### 2️⃣ 설정
+- config.yaml에서 하드웨어 설정 구성
+- 시스템 환경 확인
+
+---
+
+### 3️⃣ 실행
 ```bash
 python main.py
 ```
 
-## 사용 방법
+---
+
+## 사용 방법 📱
 
 1. 장치 전원을 켜고 모든 연결이 올바른지 확인
 2. 시스템 초기화 대기
@@ -76,21 +113,24 @@ python main.py
 4. 웨이크 워드로 로봇 활성화
 5. 음성 명령 또는 웹 인터페이스로 상호작용
 
-## 기여 방법
+---
 
-기여를 환영합니다! 풀 리퀘스트를 제출하기 전에 기여 가이드라인을 읽어주세요.
+## 커뮤니티 및 지원 👥
 
-## 라이선스
+- 📢 [GitHub Issues](https://github.com/RolittAI/RolittHub/issues)
+- 💬 [커뮤니티 포럼](https://community.rolitt.com)
+- 📚 [문서](https://docs.rolitt.com)
 
-이 프로젝트는 Apache License 2.0 하에 라이선스가 부여됩니다 - 자세한 내용은 LICENSE 파일을 참조하세요.
+## 라이선스 📄
 
-## 지원
+이 프로젝트는 Apache License 2.0 하에 라이선스가 부여됩니다.
 
-지원 및 문의사항:
-- GitHub에서 이슈 생성
-- 커뮤니티 포럼 참여
-- 문서 확인
+---
 
-## 감사의 말
+<div align="center">
 
-모든 기여자와 오픈소스 커뮤니티에 특별한 감사를 드립니다.
+### 🌟 기여자 및 후원자분들께 감사드립니다 🌟
+
+[기여 가이드라인](CONTRIBUTING.md) | [행동 강령](CODE_OF_CONDUCT.md)
+
+</div>

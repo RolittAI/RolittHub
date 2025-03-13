@@ -1,6 +1,20 @@
 # RolittHub - AI智能硬件机器人 <img src="assets/icons/robot.svg" width="32" height="32" alt="机器人图标" style="vertical-align: middle">
 
-RolittHub是一个基于ARM平台的开源AI聊天机器人项目，主要使用Python开发。该项目将智能硬件功能与AI聊天机器人技术相结合，打造一个交互式的多功能机器人平台。欢迎访问我们的官网 [www.rolitt.com](https://www.rolitt.com) 了解更多信息！🌟
+[English](README.md) | [简体中文](README_CN.md) | [日本語](README_JP.md) | [한국어](README_KR.md)
+
+---
+
+<div align="center">
+
+🌟 **智能硬件与AI聊天机器人的完美结合** 🌟
+
+RolittHub是一个基于ARM平台的开源AI聊天机器人项目，主要使用Python开发。该项目将智能硬件功能与AI聊天机器人技术相结合，打造一个交互式的多功能机器人平台。
+
+[www.rolitt.com](https://www.rolitt.com) 🚀
+
+</div>
+
+---
 
 ## 主要功能 <img src="assets/icons/features.svg" width="24" height="24" alt="功能图标" style="vertical-align: middle">
 
@@ -34,41 +48,54 @@ RolittHub是一个基于ARM平台的开源AI聊天机器人项目，主要使用
 - 回滚保护 🛡️
 - 更新进度监控 📈
 
+---
+
 ## 支持的硬件
-- 多种ARM开发板
-- 主要支持Ubuntu系统
-- 推荐配置：
-  - ARM处理器
-  - 最小1GB内存
-  - Wi-Fi/蓝牙功能
-  - 音频输入输出支持
 
-## 系统要求
-- Ubuntu（推荐）
-- Python 3.7或更高版本
-- 所需Python包（详见requirements.txt）
+<div align="center">
 
-## 安装说明
+### 💻 系统要求
 
-1. 克隆仓库：
+| 组件 | 最低配置 |
+|------|----------|
+| 处理器 | ARM架构 |
+| 内存 | 1GB RAM |
+| 连接 | Wi-Fi/蓝牙 |
+| 音频 | 输入输出支持 |
+
+</div>
+
+---
+
+## 快速开始 🚀
+
+### 1️⃣ 安装
+
 ```bash
+# 克隆仓库
 git clone https://github.com/RolittAI/RolittHub.git
 cd RolittHub
-```
 
-2. 安装依赖：
-```bash
+# 安装依赖
 pip install -r requirements.txt
 ```
 
-3. 在config.yaml中配置硬件设置
+---
 
-4. 运行主程序：
+### 2️⃣ 配置
+- 在config.yaml中配置硬件设置
+- 验证系统环境
+
+---
+
+### 3️⃣ 运行
 ```bash
 python main.py
 ```
 
-## 使用说明
+---
+
+## 使用说明 📱
 
 1. 开启设备并确保所有连接正常
 2. 等待系统初始化
@@ -76,21 +103,32 @@ python main.py
 4. 使用唤醒词激活机器人
 5. 通过语音命令或Web界面进行交互
 
-## 贡献指南
+---
 
-欢迎贡献！提交拉取请求前请阅读我们的贡献指南。
+## 社区与支持 👥
 
-## 许可证
+- 📢 [GitHub Issues](https://github.com/RolittAI/RolittHub/issues)
+- 💬 [社区论坛](https://community.rolitt.com)
+- 📚 [文档中心](https://docs.rolitt.com)
 
-本项目采用Apache License 2.0许可证 - 详见LICENSE文件。
+## 许可证 📄
 
-## 支持
+本项目采用Apache License 2.0许可证。
 
-如需支持和帮助，请：
-- 在GitHub上提出问题
-- 加入我们的社区论坛
-- 查看我们的文档
+---
 
-## 致谢
+<div align="center">
 
-特别感谢所有贡献者和开源社区。
+### 🌟 感谢所有贡献者和赞助商 🌟
+
+[贡献指南](CONTRIBUTING.md) | [行为准则](CODE_OF_CONDUCT.md)
+
+</div>
+
+## 系统架构 <img src="assets/icons/architecture.svg" width="24" height="24" alt="架构图标" style="vertical-align: middle">
+
+<div align="center">
+  <img src="assets/images/architecture.svg" alt="系统架构图" width="600">
+</div>
+
+## 主要功能 <img src="assets/icons/features.svg" width="24" height="24" alt="功能图标" style="vertical-align: middle">

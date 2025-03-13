@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">RolittHub 系统架构</text>
+  
+  <!-- 核心模块 -->
+  <rect x="300" y="80" width="200" height="80" rx="10" ry="10" fill="#4285f4" opacity="0.8"/>
+  <text x="400" y="125" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">核心系统</text>
+  <text x="400" y="145" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">AI引擎 + 硬件控制</text>
+  
+  <!-- 功能模块 -->
+  <rect x="100" y="220" width="140" height="60" rx="8" ry="8" fill="#ea4335" opacity="0.8"/>
+  <text x="170" y="255" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">音频处理</text>
+  
+  <rect x="260" y="220" width="140" height="60" rx="8" ry="8" fill="#fbbc05" opacity="0.8"/>
+  <text x="330" y="255" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">显示驱动</text>
+  
+  <rect x="420" y="220" width="140" height="60" rx="8" ry="8" fill="#34a853" opacity="0.8"/>
+  <text x="490" y="255" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">LED控制</text>
+  
+  <rect x="580" y="220" width="140" height="60" rx="8" ry="8" fill="#4285f4" opacity="0.8"/>
+  <text x="650" y="255" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">IoT功能</text>
+  
+  <!-- 连接线 -->
+  <line x1="400" y1="160" x2="400" y2="200" stroke="#333" stroke-width="2"/>
+  <line x1="400" y1="200" x2="170" y2="200" stroke="#333" stroke-width="2"/>
+  <line x1="400" y1="200" x2="330" y2="200" stroke="#333" stroke-width="2"/>
+  <line x1="400" y1="200" x2="490" y2="200" stroke="#333" stroke-width="2"/>
+  <line x1="400" y1="200" x2="650" y2="200" stroke="#333" stroke-width="2"/>
+  
+  <line x1="170" y1="200" x2="170" y2="220" stroke="#333" stroke-width="2"/>
+  <line x1="330" y1="200" x2="330" y2="220" stroke="#333" stroke-width="2"/>
+  <line x1="490" y1="200" x2="490" y2="220" stroke="#333" stroke-width="2"/>
+  <line x1="650" y1="200" x2="650" y2="220" stroke="#333" stroke-width="2"/>
+  
+  <!-- 应用层 -->
+  <rect x="200" y="340" width="400" height="60" rx="8" ry="8" fill="#673ab7" opacity="0.8"/>
+  <text x="400" y="375" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">应用层 (语音助手、智能控制、自动化)</text>
+  
+  <!-- 连接线 -->
+  <line x1="170" y1="280" x2="170" y2="310" stroke="#333" stroke-width="2"/>
+  <line x1="330" y1="280" x2="330" y2="310" stroke="#333" stroke-width="2"/>
+  <line x1="490" y1="280" x2="490" y2="310" stroke="#333" stroke-width="2"/>
+  <line x1="650" y1="280" x2="650" y2="310" stroke="#333" stroke-width="2"/>
+  
+  <line x1="170" y1="310" x2="400" y2="310" stroke="#333" stroke-width="2"/>
+  <line x1="330" y1="310" x2="400" y2="310" stroke="#333" stroke-width="2"/>
+  <line x1="490" y1="310" x2="400" y2="310" stroke="#333" stroke-width="2"/>
+  <line x1="650" y1="310" x2="400" y2="310" stroke="#333" stroke-width="2"/>
+  
+  <line x1="400" y1="310" x2="400" y2="340" stroke="#333" stroke-width="2"/>
+  
+  <!-- OTA更新模块 -->
+  <rect x="200" y="430" width="400" height="40" rx="8" ry="8" fill="#ff6d00" opacity="0.8"/>
+  <text x="400" y="455" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">OTA 升级系统</text>
+  
+  <line x1="400" y1="400" x2="400" y2="430" stroke="#333" stroke-width="2"/>
+</svg>

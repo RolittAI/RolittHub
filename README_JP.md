@@ -1,6 +1,20 @@
 # RolittHub - AIスマートハードウェアロボット <img src="assets/icons/robot.svg" width="32" height="32" alt="ロボットアイコン" style="vertical-align: middle">
 
-RolittHubは、ARMプラットフォームベースのオープンソースAIチャットボットプロジェクトで、主にPythonで開発されています。このプロジェクトは、インテリジェントハードウェア機能とAIチャットボット機能を組み合わせ、インタラクティブな多機能ロボットプラットフォームを実現します。詳細は当社ウェブサイト [www.rolitt.com](https://www.rolitt.com) をご覧ください！🌟
+[English](README.md) | [简体中文](README_CN.md) | [日本語](README_JP.md) | [한국어](README_KR.md)
+
+---
+
+<div align="center">
+
+🤖 **インテリジェントハードウェアとAIチャットボットの融合** 🤖
+
+RolittHubは、ARMプラットフォームベースのオープンソースAIチャットボットプロジェクトで、主にPythonで開発されています。このプロジェクトは、インテリジェントハードウェア機能とAIチャットボット機能を組み合わせ、インタラクティブな多機能ロボットプラットフォームを実現します。
+
+[www.rolitt.com](https://www.rolitt.com) 🌟
+
+</div>
+
+---
 
 ## 主な機能 <img src="assets/icons/features.svg" width="24" height="24" alt="機能アイコン" style="vertical-align: middle">
 
@@ -34,41 +48,54 @@ RolittHubは、ARMプラットフォームベースのオープンソースAIチ
 - ロールバック保護 🛡️
 - アップデート進捗モニタリング 📈
 
+---
+
 ## 対応ハードウェア
-- 各種ARM開発ボード
-- Ubuntuシステムを主にサポート
-- 推奨仕様：
-  - ARMプロセッサ
-  - 最小1GB RAM
-  - Wi-Fi/Bluetooth機能
-  - 音声入出力対応
 
-## システム要件
-- Ubuntu（推奨）
-- Python 3.7以上
-- 必要なPythonパッケージ（requirements.txtを参照）
+<div align="center">
 
-## インストール方法
+### 💻 システム要件
 
-1. リポジトリのクローン：
+| コンポーネント | 最小仕様 |
+|--------------|----------|
+| プロセッサ | ARM ベース |
+| メモリ | 1GB RAM |
+| 接続 | Wi-Fi/Bluetooth |
+| オーディオ | 入出力対応 |
+
+</div>
+
+---
+
+## はじめに 🚀
+
+### 1️⃣ インストール
+
 ```bash
+# リポジトリのクローン
 git clone https://github.com/RolittAI/RolittHub.git
 cd RolittHub
-```
 
-2. 依存関係のインストール：
-```bash
+# 依存関係のインストール
 pip install -r requirements.txt
 ```
 
-3. config.yamlでハードウェア設定を構成
+---
 
-4. メインプログラムの実行：
+### 2️⃣ 設定
+- config.yamlでハードウェア設定を構成
+- システム環境の確認
+
+---
+
+### 3️⃣ 実行
 ```bash
 python main.py
 ```
 
-## 使用方法
+---
+
+## 使用方法 📱
 
 1. デバイスの電源を入れ、すべての接続が正しいことを確認
 2. システム初期化の待機
@@ -76,10 +103,46 @@ python main.py
 4. ウェイクワードでロボットを起動
 5. 音声コマンドまたはWebインターフェースで操作
 
-## 貢献ガイド
+---
 
-貢献を歓迎します！プルリクエストを提出する前に貢献ガイドラインをお読みください。
+## コミュニティとサポート 👥
 
-## ライセンス
+- 📢 [GitHub Issues](https://github.com/RolittAI/RolittHub/issues)
+- 💬 [コミュニティフォーラム](https://community.rolitt.com)
+- 📚 [ドキュメント](https://docs.rolitt.com)
 
-このプロジェクトはApache License 2.0の下でライセンスされています - 詳細はLICENSEファイル
+## システムアーキテクチャ <img src="assets/icons/architecture.svg" width="24" height="24" alt="アーキテクチャアイコン" style="vertical-align: middle">
+
+<div align="center">
+  <img src="assets/images/architecture.svg" alt="システムアーキテクチャ図" width="600">
+</div>
+
+## 主要功能 <img src="assets/icons/features.svg" width="24" height="24" alt="功能图标" style="vertical-align: middle">
+
+### OTAアップデート 🚀
+- 安全な無線ファームウェアアップデート 🔒
+- 自動アップデートチェック ⚡
+- ロールバック保護 🛡️
+- アップデート進捗モニタリング 📈
+
+---
+
+## コミュニティとサポート 👥
+
+- 📢 [GitHub Issues](https://github.com/RolittAI/RolittHub/issues)
+- 💬 [コミュニティフォーラム](https://community.rolitt.com)
+- 📚 [ドキュメント](https://docs.rolitt.com)
+
+## ライセンス 📄
+
+このプロジェクトはApache License 2.0の下でライセンスされています。
+
+---
+
+<div align="center">
+
+### 🌟 すべての貢献者とスポンサーに感謝いたします 🌟
+
+[貢献ガイドライン](CONTRIBUTING.md) | [行動規範](CODE_OF_CONDUCT.md)
+
+</div>
